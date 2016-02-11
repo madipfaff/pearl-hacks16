@@ -383,6 +383,204 @@ a:hover, a:active {
 		}
 	}
 
+/*  crab animation */
+/* CHANGING SIZE OF CRAB */
+body {
+  background-color: #6076B8;
+}
+#crab .contain-crab {
+  position: relative;
+  /* margin top changes distance from mail/twitter/fb buttons */
+  margin: 200px auto;
+  width: 325px;
+}
+#crab .body {
+  position: absolute;
+  z-index: 6;
+  background: #e13b2c;
+  border-radius: 50%;
+  width: 135px;
+  height: 130px;
+}
+#crab .body:after {
+  position: absolute;
+  top: 45px;
+  left: 25px;
+  display: block;
+  border-bottom: 6px solid #333333;
+  border-radius: 50%;
+  width: 80px;
+  height: 40px;
+  content: '';
+}
+
+#crab .eye {
+  position: absolute;
+  top: -80px;
+  left: -20px;
+  z-index: 5;
+  background: white;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+
+#crab .eye-2 {
+  left: 75px;
+}
+
+#crab .stem {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  z-index: 1;
+  display: block;
+  background: #e13b2c;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  width: 10px;
+  height: 100px;
+  content: '';
+}
+
+#crab .stem-2 {
+  left: 90px;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+#crab .pupil {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  background: #333333;
+  border-radius: 50%;
+  border: 10px solid #92d1ce;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: shift 3s infinite;
+          animation: shift 3s infinite;
+}
+
+#crab .arm {
+  position: absolute;
+  left: -30px;
+  top: -55px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background: #e13b2c;
+  width: 15px;
+  height: 100px;
+}
+
+#crab .arm-2 {
+  left: 145px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#crab .claw {
+  position: absolute;
+  top: -100px;
+  left: -40px;
+  background: #e13b2c;
+  border-radius: 50%;
+  width: 100px;
+  height: 115px;
+}
+
+#crab .claw:after {
+  position: absolute;
+  left: -10px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 60px dotted transparent;
+  border-right: 60px dotted transparent;
+  border-top: 75px solid #6076B8;
+  content: '';
+}
+
+#crab .leg {
+  position: absolute;
+  left: -30px;
+  top: 20px;
+  -webkit-transform: rotate(-120deg);
+          transform: rotate(-120deg);
+  background: #e13b2c;
+  border-radius: 50px;
+  width: 20px;
+  height: 90px;
+}
+
+#crab .leg:after {
+  position: absolute;
+  left: -25px;
+  top: -65px;
+  display: block;
+  background: #e13b2c;
+  border-radius: 50px;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  width: 20px;
+  height: 90px;
+  content: '';
+}
+
+#crab .leg-2 {
+  top: 36px;
+  left: -10px;
+}
+
+#crab .leg-3 {
+  top: 56px;
+  left: 8px;
+}
+
+#crab .leg-4 {
+  top: 70px;
+  left: 190px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+#crab .leg-5 {
+  top: 88px;
+  left: 172px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+#crab .leg-6 {
+  top: 105px;
+  left: 154px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+@-webkit-keyframes shift {
+  50% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  75% {
+    -webkit-transform: translateY(-15px) translateX(-10px);
+            transform: translateY(-15px) translateX(-10px);
+  }
+}
+
+@keyframes shift {
+  50% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  75% {
+    -webkit-transform: translateY(-15px) translateX(-10px);
+            transform: translateY(-15px) translateX(-10px);
+  }
+}
+
+
 
 /*fish, seaweed, clams, whatever i feel like :) */
 #animation-section {
