@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 strong {
 	font-size:2.8em;
 	font-family: 'LMP';
-	color:#a27994;
+	color:#ce4e6d;
 	letter-spacing: 2px;
 	line-height:1.4em;
 }
@@ -90,6 +90,17 @@ a:hover, a:active {
   height: 100%;
   padding: 0;
 }
+
+	#girl h1 {
+		padding-top:15px;
+		text-align: center;
+		color: #ffffff;
+		font-size: 4em;
+		margin: 5px 0;
+		width:100%;
+		margin-left:0;
+		font-weight: 500
+	}
 
 	#girl h2 {
 		text-align: center;
