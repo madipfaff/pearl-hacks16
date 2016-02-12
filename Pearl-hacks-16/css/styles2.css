@@ -274,10 +274,8 @@ a:hover, a:active {
 			font-style: normal;
 		}
 			#about-section #intro p {
-				width:60%;
+				width: 100%;
 				margin:19px 20% 15px 23%;
-				font-size: 16px;
-				font-weight: 300;
 			}
 				#about-section #intro #register {
 					text-align: center
