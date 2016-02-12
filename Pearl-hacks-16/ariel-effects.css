@@ -19,8 +19,15 @@
   width: 450px;
   margin-left: auto;
   margin-right: auto;
+  background: -webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+  background: -webkit-transition: all 0.5s linear;
+  background: -o-transition: all 0.5s linear;
+  background: transition: all 0.5s linear;
 }
 
+.ariel:hover {
+    -webkit-filter: drop-shadow(0px 0px 20px #fff6e9);
+}
 	@media screen and (max-width: 500px) {
    .ariel{
      background-size: 150px 154px;
