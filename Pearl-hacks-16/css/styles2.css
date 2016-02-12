@@ -40,6 +40,11 @@ a:hover, a:active {
 	color: inherit;
 }
 
+::selection {
+    color: #ffffff;
+    background: #ce4e6d;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -90,18 +95,18 @@ a:hover, a:active {
   height: 100%;
   padding: 0;
 }
-
 	#girl h1 {
 		padding-top:15px;
 		text-align: center;
-		color: #ffffff;
-		font-size: 4em;
 		margin: 5px 0;
-		width:100%;
-		margin-left:0;
-		font-weight: 500
+		font-size: 4em;
+		font-weight: bolder;
+	    font-family: 'LMP';
+	    color: #FFFFFF;
+	    letter-spacing: 8px;
+	    line-height: 1em;
 	}
-
+	
 	#girl h2 {
 		text-align: center;
 		color: #ffffff;
